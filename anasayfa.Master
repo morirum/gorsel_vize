@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="anasayfa.master.cs" Inherits="vize.anasayfa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 88%;
+        }
+        .auto-style2 {
+            width: 1072px;
+        }
+        .auto-style3 {
+            height: 284px;
+            text-align: center;
+        }
+        .auto-style5 {
+            width: 1072px;
+            text-align: center;
+        }
+        .auto-style4 {
+            width: 111%;
+        }
+        .auto-style6 {
+            height: 26px;
+        }
+        .auto-style7 {
+            text-align: center;
+        }
+        .auto-style8 {
+            background-color: #99FF99;
+        }
+        .auto-style9 {
+            background-color: #FF6666;
+        }
+        .auto-style10 {
+            background-color: #66FFFF;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div>
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style3">
+                                <asp:Image ID="Image1" runat="server" Height="280px" ImageUrl="~/resim/resim.png" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style5">AKADEMİK KADRO BİLGİ</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2">
+                                <table __designer:mapid="5a" class="auto-style4">
+                                    <tr __designer:mapid="5b">
+                                        <td __designer:mapid="5c" class="auto-style6" colspan="2">ID Numaranız:</td>
+                                        <td __designer:mapid="5d" class="auto-style6" colspan="2">
+                                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr __designer:mapid="5e">
+                                        <td __designer:mapid="5f" colspan="2">Başlangıç Tarihiniz:</td>
+                                        <td __designer:mapid="60" colspan="2">
+                                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr __designer:mapid="61">
+                                        <td __designer:mapid="62" colspan="2">Bitiş Tarihi:</td>
+                                        <td __designer:mapid="63" colspan="2">
+                                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr __designer:mapid="64">
+                                        <td __designer:mapid="65" colspan="2">Çalıştığınız Departman:</td>
+                                        <td __designer:mapid="66" colspan="2">
+                                            <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr __designer:mapid="67">
+                                        <td __designer:mapid="68" class="auto-style7">
+                                            <asp:Button ID="Button1" runat="server" CssClass="auto-style8" OnClick="Button1_Click" Text="Ekle" />
+                                        </td>
+                                        <td __designer:mapid="73" class="auto-style7" colspan="2">
+                                            <asp:Button ID="Button2" runat="server" CssClass="auto-style9" OnClick="Button2_Click" Text="Sil" />
+                                        </td>
+                                        <td __designer:mapid="74" class="auto-style7">
+                                            <asp:Button ID="Button3" runat="server" CssClass="auto-style10" OnClick="Button3_Click" Text="Güncelle" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
