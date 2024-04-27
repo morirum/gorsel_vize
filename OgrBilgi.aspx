@@ -28,7 +28,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:DataList ID="DataList1" runat="server">
+                            <asp:DataList ID="DataList1" runat="server" Width="1201px">
                                 <ItemTemplate>
                                     <table class="auto-style1">
                                         <tr>

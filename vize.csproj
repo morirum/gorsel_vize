@@ -162,6 +162,13 @@
       <DependentUpon>rapor.aspx</DependentUpon>
     </Compile>
     <Compile Include="sqlsinif.cs" />
+    <Compile Include="yoneticiEkle.aspx.cs">
+      <DependentUpon>yoneticiEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yoneticiEkle.aspx.designer.cs">
+      <DependentUpon>yoneticiEkle.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="akemdikKadro.aspx" />
@@ -176,13 +183,16 @@
     <Content Include="idariBirim.aspx" />
     <Content Include="OgrBilgi.aspx" />
     <Content Include="rapor.aspx" />
+    <Content Include="resim\idare.jpg" />
     <Content Include="resim\muhendislik-ve-myo_croppe...-22022022141414.jpg" />
     <Content Include="resim\personel.png" />
     <Content Include="resim\rapor.png" />
     <Content Include="resim\resim.png" />
+    <Content Include="resim\yonetici.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="anasayfa.Master" />
+    <Content Include="yoneticiEkle.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
